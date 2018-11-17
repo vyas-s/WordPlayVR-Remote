@@ -8,6 +8,7 @@ TagManager:
   - Profile
   - Settings
   - Stats
+  - AddUser
   layers:
   - Default
   - TransparentFX
