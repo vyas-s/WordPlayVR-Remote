@@ -17,7 +17,7 @@ public class DataLoader : MonoBehaviour {
 
     IEnumerator Start ()
     {
-        WWW itemsData = new WWW("http://localhost/LabDatabase/dashboardapp/ItemsData.php");
+        WWW itemsData = new WWW("http://localhost/labdatabase/ItemsData.php");
         yield return itemsData;
         string itemsDataString = itemsData.text;
         print(itemsDataString);

@@ -25,7 +25,7 @@ public class DataInserter : MonoBehaviour {
     string insertDrugsPrescribed;
     string insertDoAndDont;
 
-    string CreateUserURL = "http://localhost/LabDatabase/dashboardapp/example.php";
+    string CreateUserURL = "http://localhost/labdatabase/example.php";
 
 	// Use this for initialization
 	void Start () {
@@ -58,12 +58,12 @@ public class DataInserter : MonoBehaviour {
 		form.AddField("LastNamePost", LastName);
 		form.AddField("AddressPost", Address);
         form.AddField("HeightPost", Height);
-        form.AddField("MedicalHistPost", MedHis);
-        form.AddField("PriorVisitsPost", PriorVis);
-        form.AddField("NotesPost", Notes);
+        //form.AddField("MedicalHistPost", MedHis);
+        //form.AddField("PriorVisitsPost", PriorVis);
         form.AddField("SymptomsPost", Symptoms);
-        form.AddField("DrugsPost", DrugsPres);
-        form.AddField("DoAndDntPost", DoAndDont);
+        form.AddField("NotesPost", Notes);
+        //form.AddField("DrugsPost", DrugsPres);
+        //form.AddField("DoAndDntPost", DoAndDont);
 
         WWW www = new WWW(CreateUserURL, form);
 	}
