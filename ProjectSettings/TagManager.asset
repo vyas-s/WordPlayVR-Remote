@@ -9,6 +9,7 @@ TagManager:
   - Settings
   - Stats
   - AddUser
+  - ShowDetails
   layers:
   - Default
   - TransparentFX
