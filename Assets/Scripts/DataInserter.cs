@@ -25,7 +25,7 @@ public class DataInserter : MonoBehaviour {
     string insertDrugsPrescribed;
     string insertDoAndDont;
 
-    string CreateUserURL = "http://localhost/labdatabase/example.php";
+    string CreateUserURL = "http://localhost/example.php";
 
 	// Use this for initialization
 	void Start () {

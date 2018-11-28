@@ -14,7 +14,7 @@
 		echo("Connection Successfull");
 	}
 
-	$sql = "SELECT ID, FirstName, LastName, Address, Height, Symptoms, Notes, DrugsPrescribed, MedicalHistory, PriorVisits, DoAndDont FROM EXAMPLE";
+	$sql = "SELECT ID, FirstName, LastName, Address, Height, Symptoms, Notes FROM EXAMPLE";
 	$result = mysqli_query($conn ,$sql);
 	
 	
@@ -28,10 +28,6 @@
 			"|Height: ".$row['Height'] . 
 			"|Symptoms: ".$row['Symptoms'] . 
 			"|Notes: ".$row['Notes'] . 
-			"|DrugsPrescribed: ".$row['DrugsPrescribed'] . 
-			"|MeicalHistory: ".$row['MedicalHistory'] . 
-			"|PriorVisits: ".$row['PriorVisits']. 
-			"|Do's And Dont's: ".$row['DoAndDont'] . 
 			";";
 		}
 	}

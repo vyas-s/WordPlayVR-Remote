@@ -12,10 +12,6 @@
 	$Height = $_POST["HeightPost"];//"517";
 	$Symptoms = $_POST["MedicalHistPost"];//"abc";
 	$Notes = $_POST["PriorVisitsPost"];//"abcxyz";
-	$DrugsPrescribed = $_POST["NotesPost"];//"qwerty";
-	$MedicalHistory = $_POST["SymptomsPost"];//"asdfghjkl";
-	$PriorVisits = $_POST["DrugsPost"];//"nu";
-	$DoAndDont = $_POST["DoAndDntPost"];//"nu";
 
 	//Make Connection
 	$conn = new mysqli($servername, $server_username, $server_password, $dbName);
@@ -24,7 +20,7 @@
 		die("Connection Failed. ". mysqli_connect_error());
 	}
 	
-	$sql = "INSERT INTO example (FirstName, LastName, Address, Height, MedicalHistory, PriorVisits, Notes, Symptoms, DrugsPrescribed, DoAndDont) VALUES ('".$FirstName."', '".$LastName."', '".$Address."', '".$Height."', '".$MedicalHistory."', '".$PriorVisits."', '".$Notes."', '".$Symptoms."', '".$DrugsPrescribed."', '".$DoAndDont."')";
+	$sql = "INSERT INTO example (FirstName, LastName, Address, Height, MedicalHistory, PriorVisits, Notes, Symptoms, DrugsPrescribed, DoAndDont) VALUES ('".$FirstName."', '".$LastName."', '".$Address."', '".$Height."', '".$Symptoms."', '".$Notes."')";
 	$result = mysqli_query($conn ,$sql);
 	
 	if(!result) echo "there was an error";
