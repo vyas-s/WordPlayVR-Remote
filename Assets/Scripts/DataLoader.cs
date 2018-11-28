@@ -11,6 +11,10 @@ public class DataLoader : MonoBehaviour {
     public Text tempID;
     public Text tempFN;
     public Text tempLN;
+    public Text Notes;
+    public Text Symptoms;
+    public Text Height;
+    public Text Address;
     public Text Id;
 
     string IdComesHere;
@@ -47,6 +51,10 @@ public class DataLoader : MonoBehaviour {
                 tempID.text = (GetDataValue(items[i], "ID:"));
                 tempFN.text = (GetDataValue(items[i], "First Name:"));
                 tempLN.text = (GetDataValue(items[i], "Last Name:"));
+                Address.text = (GetDataValue(items[i], "Address:"));
+                Height.text = (GetDataValue(items[i], "Height:"));
+                Symptoms.text = (GetDataValue(items[i], "Symptoms:"));
+                Notes.text = (GetDataValue(items[i], "Notes"));
                 Debug.Log(tempID.text+ "temp ki id value");
                 Debug.Log(Id.text + "idtext neeeechee");
                 if (tempID.text != Id.text)

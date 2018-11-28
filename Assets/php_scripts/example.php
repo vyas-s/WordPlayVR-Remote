@@ -20,7 +20,7 @@
 		die("Connection Failed. ". mysqli_connect_error());
 	}
 	
-	$sql = "INSERT INTO example (FirstName, LastName, Address, Height, MedicalHistory, PriorVisits, Notes, Symptoms, DrugsPrescribed, DoAndDont) VALUES ('".$FirstName."', '".$LastName."', '".$Address."', '".$Height."', '".$Symptoms."', '".$Notes."')";
+	$sql = "INSERT INTO example (FirstName, LastName,  Address,Height,  SymptomsNotes,) VALUES ('".$FirstName."', '".$LastName."', '".$Address."', '".$Height."', '".$Symptoms."', '".$Notes."')";
 	$result = mysqli_query($conn ,$sql);
 	
 	if(!result) echo "there was an error";
