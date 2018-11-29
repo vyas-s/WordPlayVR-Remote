@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -205,7 +205,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &6968252
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1639,7 +1639,7 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 109018376}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
@@ -1751,13 +1751,13 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1316681314}
   toggleTransition: 1
   graphic: {fileID: 1125493797}
-  m_Group: {fileID: 0}
+  m_Group: {fileID: 2068874792}
   onValueChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &130612508
 GameObject:
   m_ObjectHideFlags: 0
@@ -1945,8 +1945,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -44.03, y: 0}
-  m_SizeDelta: {x: 186.94, y: 27}
+  m_AnchoredPosition: {x: -44.03, y: 1.8}
+  m_SizeDelta: {x: 186.9, y: 42.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &136263940
 MonoBehaviour:
@@ -1981,7 +1981,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: 50
 --- !u!222 &136263941
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3088,7 +3088,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1579469372}
   toggleTransition: 1
   graphic: {fileID: 614602697}
-  m_Group: {fileID: 0}
+  m_Group: {fileID: 680106532}
   onValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -4725,7 +4725,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 615486211}
   toggleTransition: 1
   graphic: {fileID: 1348492535}
-  m_Group: {fileID: 0}
+  m_Group: {fileID: 2068874792}
   onValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -5242,7 +5242,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &374033346
 GameObject:
   m_ObjectHideFlags: 0
@@ -5524,7 +5524,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -379.84766, y: -234.09961}
+  m_AnchoredPosition: {x: -342.3, y: -234.09961}
   m_SizeDelta: {x: -872, y: -515.35004}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &401665863
@@ -6120,7 +6120,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1009137811}
   toggleTransition: 1
   graphic: {fileID: 1177904751}
-  m_Group: {fileID: 0}
+  m_Group: {fileID: 709544455}
   onValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -6248,23 +6248,23 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22407018, guid: 6d0d9bda765da69468724938cc4bdaf6, type: 2}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 0.541
       objectReference: {fileID: 0}
     - target: {fileID: 22407018, guid: 6d0d9bda765da69468724938cc4bdaf6, type: 2}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 22407006, guid: 6d0d9bda765da69468724938cc4bdaf6, type: 2}
       propertyPath: m_AnchorMin.x
-      value: 0
+      value: 0.541
       objectReference: {fileID: 0}
     - target: {fileID: 22407006, guid: 6d0d9bda765da69468724938cc4bdaf6, type: 2}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 0.541
       objectReference: {fileID: 0}
     - target: {fileID: 22407006, guid: 6d0d9bda765da69468724938cc4bdaf6, type: 2}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11407012, guid: 6d0d9bda765da69468724938cc4bdaf6, type: 2}
       propertyPath: m_Value
@@ -7411,7 +7411,7 @@ MonoBehaviour:
   m_CaretColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_CustomCaretColor: 0
   m_SelectionColor: {r: 0.65882355, g: 0.80784315, b: 1, a: 0.7529412}
-  m_Text: 
+  m_Text: 50
   m_CaretBlinkRate: 1.7
   m_CaretWidth: 1
   m_ReadOnly: 0
@@ -7495,7 +7495,7 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 479182324}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
@@ -7690,7 +7690,7 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 512096135}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
@@ -8780,8 +8780,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -49.64, y: 0}
-  m_SizeDelta: {x: 73.8, y: 27}
+  m_AnchoredPosition: {x: -49.64, y: 0.99}
+  m_SizeDelta: {x: 73.8, y: 44.66}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &602313731
 MonoBehaviour:
@@ -8816,7 +8816,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: 3
 --- !u!222 &602313732
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9953,6 +9953,7 @@ GameObject:
   - component: {fileID: 680106531}
   - component: {fileID: 680106530}
   - component: {fileID: 680106529}
+  - component: {fileID: 680106532}
   m_Layer: 5
   m_Name: Round1
   m_TagString: Controls
@@ -10042,7 +10043,7 @@ MonoBehaviour:
   m_CaretColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_CustomCaretColor: 0
   m_SelectionColor: {r: 0.65882355, g: 0.80784315, b: 1, a: 0.7529412}
-  m_Text: 
+  m_Text: TENNIS
   m_CaretBlinkRate: 1.7
   m_CaretWidth: 1
   m_ReadOnly: 0
@@ -10082,6 +10083,18 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 680106527}
   m_CullTransparentMesh: 0
+--- !u!114 &680106532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 680106527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1184210157, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AllowSwitchOff: 0
 --- !u!1 &687555759
 GameObject:
   m_ObjectHideFlags: 0
@@ -10322,6 +10335,7 @@ GameObject:
   - component: {fileID: 709544453}
   - component: {fileID: 709544452}
   - component: {fileID: 709544454}
+  - component: {fileID: 709544455}
   m_Layer: 5
   m_Name: Round3
   m_TagString: Controls
@@ -10447,10 +10461,22 @@ MonoBehaviour:
   m_CaretColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_CustomCaretColor: 0
   m_SelectionColor: {r: 0.65882355, g: 0.80784315, b: 1, a: 0.7529412}
-  m_Text: 
+  m_Text: BADMINTON
   m_CaretBlinkRate: 1.7
   m_CaretWidth: 1
   m_ReadOnly: 0
+--- !u!114 &709544455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 709544450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1184210157, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AllowSwitchOff: 0
 --- !u!1 &709611014
 GameObject:
   m_ObjectHideFlags: 0
@@ -13056,8 +13082,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -49.64, y: 0}
-  m_SizeDelta: {x: 73.8, y: 27}
+  m_AnchoredPosition: {x: -49.64, y: 1.96}
+  m_SizeDelta: {x: 73.8, y: 44.66}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &890765099
 MonoBehaviour:
@@ -13092,7 +13118,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: 15
 --- !u!222 &890765100
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13266,7 +13292,7 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 895480990}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
@@ -13292,7 +13318,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: null
+  m_Text: 
 --- !u!222 &895480993
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14572,7 +14598,7 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1025276385}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
@@ -14598,7 +14624,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: null
+  m_Text: 
 --- !u!222 &1025276388
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15995,8 +16021,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -49.64, y: 0}
-  m_SizeDelta: {x: 73.8, y: 27}
+  m_AnchoredPosition: {x: -49.64, y: 0.99}
+  m_SizeDelta: {x: 73.8, y: 44.66}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1179971639
 MonoBehaviour:
@@ -16031,7 +16057,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: 5
 --- !u!222 &1179971640
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16084,7 +16110,7 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1181553775}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
@@ -17117,7 +17143,7 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1228690021}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
@@ -17265,7 +17291,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -227.34766, y: -234.09961}
+  m_AnchoredPosition: {x: -268.7, y: -234.09961}
   m_SizeDelta: {x: -872, y: -515.35}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1231772273
@@ -17416,7 +17442,7 @@ MonoBehaviour:
   m_CaretColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_CustomCaretColor: 0
   m_SelectionColor: {r: 0.65882355, g: 0.80784315, b: 1, a: 0.7529412}
-  m_Text: 
+  m_Text: 10
   m_CaretBlinkRate: 1.7
   m_CaretWidth: 1
   m_ReadOnly: 0
@@ -18438,7 +18464,7 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1304896695}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
@@ -18899,7 +18925,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &1345686532
 GameObject:
   m_ObjectHideFlags: 0
@@ -19653,7 +19679,7 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1376017752}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
@@ -19859,7 +19885,7 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1393509763}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
@@ -20767,27 +20793,27 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22407018, guid: 6d0d9bda765da69468724938cc4bdaf6, type: 2}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 0.42
       objectReference: {fileID: 0}
     - target: {fileID: 22407018, guid: 6d0d9bda765da69468724938cc4bdaf6, type: 2}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 22407006, guid: 6d0d9bda765da69468724938cc4bdaf6, type: 2}
       propertyPath: m_AnchorMin.x
-      value: 0
+      value: 0.42
       objectReference: {fileID: 0}
     - target: {fileID: 22407006, guid: 6d0d9bda765da69468724938cc4bdaf6, type: 2}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 0.42
       objectReference: {fileID: 0}
     - target: {fileID: 22407006, guid: 6d0d9bda765da69468724938cc4bdaf6, type: 2}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11407012, guid: 6d0d9bda765da69468724938cc4bdaf6, type: 2}
       propertyPath: m_Value
-      value: 0.541
+      value: 0.42
       objectReference: {fileID: 0}
     - target: {fileID: 22407008, guid: 6d0d9bda765da69468724938cc4bdaf6, type: 2}
       propertyPath: m_LocalScale.x
@@ -21040,8 +21066,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -49.64, y: 0}
-  m_SizeDelta: {x: 73.8, y: 27}
+  m_AnchoredPosition: {x: -49.64, y: 0.99}
+  m_SizeDelta: {x: 73.8, y: 44.66}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1463928457
 MonoBehaviour:
@@ -21076,7 +21102,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: 5
 --- !u!222 &1463928458
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -22104,23 +22130,23 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22407018, guid: 6d0d9bda765da69468724938cc4bdaf6, type: 2}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 0.541
       objectReference: {fileID: 0}
     - target: {fileID: 22407018, guid: 6d0d9bda765da69468724938cc4bdaf6, type: 2}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 22407006, guid: 6d0d9bda765da69468724938cc4bdaf6, type: 2}
       propertyPath: m_AnchorMin.x
-      value: 0
+      value: 0.541
       objectReference: {fileID: 0}
     - target: {fileID: 22407006, guid: 6d0d9bda765da69468724938cc4bdaf6, type: 2}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 0.541
       objectReference: {fileID: 0}
     - target: {fileID: 22407006, guid: 6d0d9bda765da69468724938cc4bdaf6, type: 2}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11407012, guid: 6d0d9bda765da69468724938cc4bdaf6, type: 2}
       propertyPath: m_Value
@@ -22793,13 +22819,13 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 333823315}
   toggleTransition: 1
   graphic: {fileID: 1933978146}
-  m_Group: {fileID: 0}
+  m_Group: {fileID: 680106532}
   onValueChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &1588216757
 GameObject:
   m_ObjectHideFlags: 0
@@ -22970,7 +22996,7 @@ MonoBehaviour:
   m_CaretColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_CustomCaretColor: 0
   m_SelectionColor: {r: 0.65882355, g: 0.80784315, b: 1, a: 0.7529412}
-  m_Text: 
+  m_Text: SPORTS
   m_CaretBlinkRate: 1.7
   m_CaretWidth: 1
   m_ReadOnly: 0
@@ -23749,7 +23775,7 @@ MonoBehaviour:
   m_CaretColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_CustomCaretColor: 0
   m_SelectionColor: {r: 0.65882355, g: 0.80784315, b: 1, a: 0.7529412}
-  m_Text: 
+  m_Text: 5
   m_CaretBlinkRate: 1.7
   m_CaretWidth: 1
   m_ReadOnly: 0
@@ -23872,7 +23898,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &1695999100
 GameObject:
   m_ObjectHideFlags: 0
@@ -24151,7 +24177,7 @@ MonoBehaviour:
   m_CaretColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_CustomCaretColor: 0
   m_SelectionColor: {r: 0.65882355, g: 0.80784315, b: 1, a: 0.7529412}
-  m_Text: 
+  m_Text: 3
   m_CaretBlinkRate: 1.7
   m_CaretWidth: 1
   m_ReadOnly: 0
@@ -24704,13 +24730,13 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 709611016}
   toggleTransition: 1
   graphic: {fileID: 865855461}
-  m_Group: {fileID: 0}
+  m_Group: {fileID: 709544455}
   onValueChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &1756810782
 GameObject:
   m_ObjectHideFlags: 0
@@ -24755,7 +24781,7 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1756810782}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
@@ -25113,8 +25139,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -44.191, y: 0}
-  m_SizeDelta: {x: 186.61, y: 27}
+  m_AnchoredPosition: {x: -44.191, y: 1.8}
+  m_SizeDelta: {x: 186.6, y: 42.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1800555366
 MonoBehaviour:
@@ -25149,7 +25175,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: 50
 --- !u!222 &1800555367
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -25380,7 +25406,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: BADMINTON
 --- !u!222 &1806424377
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -25637,7 +25663,7 @@ MonoBehaviour:
   m_CaretColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_CustomCaretColor: 0
   m_SelectionColor: {r: 0.65882355, g: 0.80784315, b: 1, a: 0.7529412}
-  m_Text: 
+  m_Text: 3
   m_CaretBlinkRate: 1.7
   m_CaretWidth: 1
   m_ReadOnly: 0
@@ -25948,7 +25974,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: TENNIS
 --- !u!222 &1859789599
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -26245,7 +26271,7 @@ MonoBehaviour:
   m_CaretColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_CustomCaretColor: 0
   m_SelectionColor: {r: 0.65882355, g: 0.80784315, b: 1, a: 0.7529412}
-  m_Text: 
+  m_Text: 15
   m_CaretBlinkRate: 1.7
   m_CaretWidth: 1
   m_ReadOnly: 0
@@ -26693,7 +26719,7 @@ MonoBehaviour:
   m_CaretColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_CustomCaretColor: 0
   m_SelectionColor: {r: 0.65882355, g: 0.80784315, b: 1, a: 0.7529412}
-  m_Text: 
+  m_Text: 5
   m_CaretBlinkRate: 1.7
   m_CaretWidth: 1
   m_ReadOnly: 0
@@ -27870,7 +27896,7 @@ MonoBehaviour:
   m_CaretColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_CustomCaretColor: 0
   m_SelectionColor: {r: 0.65882355, g: 0.80784315, b: 1, a: 0.7529412}
-  m_Text: 
+  m_Text: 50
   m_CaretBlinkRate: 1.7
   m_CaretWidth: 1
   m_ReadOnly: 0
@@ -27944,8 +27970,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -49.64, y: 0}
-  m_SizeDelta: {x: 73.8, y: 27}
+  m_AnchoredPosition: {x: -49.64, y: 1.43}
+  m_SizeDelta: {x: 73.8, y: 45.81}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1954289624
 MonoBehaviour:
@@ -27980,7 +28006,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: 3
 --- !u!222 &1954289625
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -28024,7 +28050,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -49.64, y: 0}
-  m_SizeDelta: {x: 73.8, y: 27}
+  m_SizeDelta: {x: 73.8, y: 44.66}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1957051476
 MonoBehaviour:
@@ -28059,7 +28085,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: 10
 --- !u!222 &1957051477
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -29240,7 +29266,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: SQUASH
 --- !u!222 &2048504470
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -29319,7 +29345,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: SPORTS
 --- !u!222 &2050540480
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -29617,6 +29643,7 @@ GameObject:
   - component: {fileID: 2068874790}
   - component: {fileID: 2068874789}
   - component: {fileID: 2068874791}
+  - component: {fileID: 2068874792}
   m_Layer: 5
   m_Name: Round2
   m_TagString: Controls
@@ -29742,10 +29769,22 @@ MonoBehaviour:
   m_CaretColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_CustomCaretColor: 0
   m_SelectionColor: {r: 0.65882355, g: 0.80784315, b: 1, a: 0.7529412}
-  m_Text: 
+  m_Text: SQUASH
   m_CaretBlinkRate: 1.7
   m_CaretWidth: 1
   m_ReadOnly: 0
+--- !u!114 &2068874792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2068874787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1184210157, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AllowSwitchOff: 0
 --- !u!1 &2083055485
 GameObject:
   m_ObjectHideFlags: 0
@@ -29774,14 +29813,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   btn_start_game: {fileID: 1508973781}
+  btn_stop_game: {fileID: 1167574673}
   hint: {fileID: 1591503456}
   puzzle1: {fileID: 680106529}
   puzzle2: {fileID: 2068874791}
   puzzle3: {fileID: 709544454}
   No_Of_Blank_Text:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 1831876351}
+  - {fileID: 1714412062}
+  - {fileID: 1692760307}
+  SpawnInterval:
+  - {fileID: 1873625685}
+  - {fileID: 1232293928}
+  - {fileID: 1891920743}
+  AlphabetsFaceUser:
+  - {fileID: 189733572}
+  - {fileID: 330462207}
+  - {fileID: 1755047481}
+  spin:
+  - {fileID: 1581446254}
+  - {fileID: 111712089}
+  - {fileID: 420098588}
+  repeatSolution:
+  - {fileID: 1693786298}
+  - {fileID: 1340951709}
+  - {fileID: 369487894}
+  FlyingSpeed: {fileID: 1939632360}
+  RotationSpeed: {fileID: 465283030}
 --- !u!4 &2083055487
 Transform:
   m_ObjectHideFlags: 0
@@ -29839,7 +29897,7 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2133198353}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
